@@ -1,0 +1,24 @@
+{
+  "name": "virtual-judge-codechef-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transpiled": "npx tsc",
+    "puzhunt-approach1": "npx tsc && node dist/basic-programming/PUZHUNT/main/index.approach1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlambdas/virtual-judge-codechef-typescript.git"
+  },
+  "author": "@alexlambdas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexlambdas/virtual-judge-codechef-typescript/issues"
+  },
+  "homepage": "https://github.com/alexlambdas/virtual-judge-codechef-typescript#readme",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "typescript": "^5.1.6"
+  }
+}
