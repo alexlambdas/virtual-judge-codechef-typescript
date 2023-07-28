@@ -19,3 +19,7 @@ function entryPoint(dataIn: string[]): void{
 }
 
 entryPoint(Array('8'));
+
+export default {
+  puzzleHunt,
+}
